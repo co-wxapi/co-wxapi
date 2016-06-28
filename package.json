@@ -1,0 +1,14 @@
+{
+  "name": "co-wxapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test/*.js !test/config.js"
+  },
+  "author": "jerry",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.15.2"
+  }
+}
