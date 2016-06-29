@@ -1,7 +1,7 @@
 {
   "name": "co-wxapi",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "wechat backend library",
   "main": "index.js",
   "scripts": {
     "test": "ava test/*.js !test/config.js"
@@ -9,7 +9,7 @@
   "author": "jerry",
   "license": "ISC",
   "dependencies": {
-    "co-wxsign": "^0.1.0",
+    "co-wxsign": "^1.0.0",
     "co-wxbase": "^0.1.0",
     "co-wxauth": "^0.1.0",
     "co-wxmsg": "^0.1.0",
@@ -20,11 +20,24 @@
   "devDependencies": {
     "ava": "^0.15.2"
   },
-  "engines": {
-    "node": ">= 4.4.0"
-  },
   "files": [
     "lib",
     "*.js"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/co-wxapi/co-wxapi.git"
+  },
+  "keywords": [
+    "wechat",
+    "signature",
+    "wxapi"
+  ],
+  "engines": {
+    "node": ">= 4.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/co-wxapi/co-wxapi/issues"
+  },
+  "homepage": "https://github.com/co-wxapi/co-wxapi"
 }
