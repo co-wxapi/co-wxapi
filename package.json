@@ -8,7 +8,23 @@
   },
   "author": "jerry",
   "license": "ISC",
+  "dependencies": {
+    "co-wxsign": "^0.1.0",
+    "co-wxbase": "^0.1.0",
+    "co-wxauth": "^0.1.0",
+    "co-wxmsg": "^0.1.0",
+    "co-wxpay": "^0.1.0",
+    "co-wxqrcode": "^0.1.0",
+    "co-wxtoken": "^0.1.0"
+  },
   "devDependencies": {
     "ava": "^0.15.2"
-  }
+  },
+  "engines": {
+    "node": ">= 4.4.0"
+  },
+  "files": [
+    "lib",
+    "*.js"
+  ]
 }
