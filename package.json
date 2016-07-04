@@ -1,6 +1,6 @@
 {
   "name": "co-wxapi",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "wechat backend library",
   "main": "index.js",
   "scripts": {
@@ -9,13 +9,14 @@
   "author": "jerry",
   "license": "ISC",
   "dependencies": {
-    "co-wxsign": "^1.0.0",
-    "co-wxbase": "^0.1.0",
-    "co-wxauth": "^0.1.0",
-    "co-wxmsg": "^0.1.0",
-    "co-wxpay": "^0.1.0",
-    "co-wxqrcode": "^0.1.0",
-    "co-wxtoken": "^0.1.0"
+    "co-wxsign": "^1.0.1",
+    "co-wxbase": "^0.1.1",
+    "co-wxauth": "^0.1.1",
+    "co-wxmsg": "^0.1.1",
+    "co-wxpay": "^0.1.2",
+    "co-wxqrcode": "^0.1.1",
+    "co-wxjsapi": "^0.1.1",
+    "co-wxtoken": "^0.1.2"
   },
   "devDependencies": {
     "ava": "^0.15.2"
