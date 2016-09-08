@@ -7,14 +7,16 @@ var MODULES = {
   token: 'co-wxtoken',
   msg : 'co-wxmsg',
   qrcode: 'co-wxqrcode',
-  asset: 'co-wxasset'
+  user: 'co-wxuser',
+  asset: 'co-wxasset',
+  kf: 'co-wxkf'
 }
 
 class WxAPI extends WxBase{
   constructor(config){
     super(config);
     // Initial access token
-    var modules = config.modules || ['auth', 'token', 'jsapi', 'pay', 'qrcode', 'msg', 'asset'];
+    var modules = config.modules || ['auth', 'token', 'jsapi', 'pay', 'qrcode', 'msg', 'asset', 'user', 'kf'];
     modules.forEach((mod)=>{
       var modFile = MODULES[mod];
       this[mod] = require(modFile)(config);
